@@ -1,6 +1,8 @@
 // Print the Fibonacci Sequence using recursion.
 //Given a number n, print the first nth element of the Fibonacci sequence. If n = 5, print the fifth Fibonacci number.
 
+//^ OWN SOLUTION
+
 const fibo = (n) => {
 	let arr = [];
 	if (n == 0) {
@@ -20,6 +22,8 @@ const fibo = (n) => {
 	return `sirul fibonacci este : ${arr}`;
 	// al ${n}-lea element este ${arr[arr.length - 1]}`;
 };
+
+//^ RECURSIVE SOLUTION
 
 const fib = (n) => {
 	if (n == 0) {
